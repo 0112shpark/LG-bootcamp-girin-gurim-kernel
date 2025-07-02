@@ -180,3 +180,4 @@ sphinx_*/
 /rust-project.json
 
 /.vscode
+!./build_product/wt2837.dts
