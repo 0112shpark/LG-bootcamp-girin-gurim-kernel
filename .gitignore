@@ -181,3 +181,4 @@ sphinx_*/
 
 /.vscode
 !./build_product/wt2837.dts
+!./.config
