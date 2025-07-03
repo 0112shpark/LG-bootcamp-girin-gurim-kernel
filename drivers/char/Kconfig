@@ -422,4 +422,11 @@ config ADI
 	  and SSM (Silicon Secured Memory).  Intended consumers of this
 	  driver include crash and makedumpfile.
 
+config CUSTOM_IOCTL
+	tristate "Custom Ioctl for control LED. Game match or fail"
+	default m
+	help
+	  You want to enable custom ioctl to control LED for
+	  checking game success or not set it y or n
+
 endmenu
